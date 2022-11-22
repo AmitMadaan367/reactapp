@@ -19,5 +19,5 @@ sudo npm install -g npm -y
 # we need to traverse to where the application bundle is copied too.
 echo installing application with npm
 cd /var/www/
+sudo rm -rf node_modules
 sudo npm install
-
