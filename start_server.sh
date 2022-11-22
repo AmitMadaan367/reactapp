@@ -8,4 +8,6 @@ sudo npm run build
 
 # start the application with pm2
 echo starting application...
-sudo pm2 start npm -- run production
+#sudo pm2 start npm -- run production
+
+sudo npm start &
