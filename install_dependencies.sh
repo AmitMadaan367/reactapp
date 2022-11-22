@@ -10,6 +10,7 @@ sudo apt-get update
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 sudo apt-get install nodejs -y
 sudo apt-get -y install npm
+sudo npm install -g npm -y
 
 
 # check to make sure the symbolic link for nodejs node exists
