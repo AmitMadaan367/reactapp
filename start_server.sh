@@ -6,6 +6,7 @@ cd /var/www/
 sudo npm install -g npm -y
 
 sudo rm -r node_modules
+sudo rm package-lock.json
 
 sudo npm install
 
