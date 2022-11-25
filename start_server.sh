@@ -3,6 +3,9 @@ echo starting server
 
 # here we just use npm to run the build
 cd /var/www/
+sudo npm install -g npm -y
+sudo npm install
+
 echo building application...
 
 # start the application with pm2
